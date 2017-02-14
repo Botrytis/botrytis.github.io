@@ -1,0 +1,50 @@
+# Site settings
+baseurl = "https://botrytis.github.io/"
+languageCode = "en-us"
+title = "Leket Bar Ltd. | Innovation in agrochemicals"
+
+# Enter your tracking code to enable Google analytics
+googleAnalytics = "UA-XXXXXXXX-1"
+
+[params]
+ 
+  name = "Leket Bar"
+  description = "Innovation in agriculture"
+
+  # Background
+  [params.background]
+    image = "assets/img/bg.jpg"
+
+    # Enable and set background fade speed
+    [params.background.fade]
+      enable = true
+      speed = 500
+
+  # Logo section
+  [params.logo]
+    enable = true
+    image = "assets/img/logo.png"
+    alt = "leketbar.com"
+    width = "400"
+
+  # Header section
+  [params.header]
+    enable = true
+    title = "Leket Bar<br>innovative. safe. effective."
+
+  # Quote section
+  [params.quote]
+    enable = true
+    text = "Leket Bar is an innovator in the field of agriculture. Leket Bar develops original product that nurish and protect the plant by enhancing the natural defences of the plant. <br> Our popular prodcuts, Dentamet and Bio-D are successfuly sold around the world."
+
+  # Social icons section
+  [params.social_icons]
+    enable = true
+
+
+  [[params.social]]
+    title = "Email Us"
+    icon = "fa-envelope"
+    link = "mailto:info@ft-chem.com"
+
+  
