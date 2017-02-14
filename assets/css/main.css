@@ -22,10 +22,11 @@ p {
     line-height: 28px;
     margin-bottom: 25px;
     font-size: 23px;
+background-color: rgba(66, 244, 107,0.75);
 }
 
 .centered {
-    text-align: center;
+    text-align: center; 
 }
 
 /* Links */
